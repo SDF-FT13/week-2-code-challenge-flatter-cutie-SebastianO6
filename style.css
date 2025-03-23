@@ -5,6 +5,7 @@ html {
 html, body {
   margin: 0;
   padding: 0;
+  background-image: url("https://plus.unsplash.com/premium_photo-1722100465381-a6b9ad3cb996?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGFuaW1hdGVkJTIwQW5pbWFsc3xlbnwwfHwwfHx8MA%3D%3D://https://plus.unsplash.com/premium_photo-1722100465381-a6b9ad3cb996?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGFuaW1hdGVkJTIwQW5pbWFsc3xlbnwwfHwwfHx8MA%3D%3D.unsplash.com/photo-1598802777393-751e5387ecd1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8dm90aW5nfGVufDB8fDB8fHww://plus.unsplash.com/premium_photo-1705317716147-9d8f7ab2ad69?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dm90aW5nfGVufDB8fDB8fHww");
 }
 
 .logo{
@@ -21,6 +22,7 @@ html, body {
   justify-content: space-around;
   align-items: center;
   padding-bottom: 3vh;
+  cursor: pointer;
 }
 
 #character-bar span {
@@ -59,3 +61,10 @@ input[type="text"] {
   width: 300px;
   height: 300px;
 }
+
+
+/* .selected {
+  background-color: rgba(49, 109, 179, 0.5);
+  border: 2px solid white;
+} */
+
