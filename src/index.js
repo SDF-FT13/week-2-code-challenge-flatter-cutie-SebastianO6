@@ -3,7 +3,7 @@ let animals = [];
 let currentAnimal = null;
 
 document.addEventListener("DOMContentLoaded", () => {
-    fetch("http://localhost:3000/characters")
+    fetch("https://repozz.vercel.app/characters")
         .then((res) => res.json())
         .then((data) => {
             animals = data; 
@@ -47,12 +47,5 @@ function handleClick(character) {
     currentAnimal = character;
 }
 
-document.getElementById("votes-form").addEventListener("submit", (e) => {
-    e.preventDefault();
-    
-    const votesToAdd = parseInt(document.getElementById("votes").value);
-    if (currentAnimal) {
-        document.getElementById("vote-count").textContent = currentAnimal.votes += votesToAdd;
-        e.target.reset(); 
-    }
-});
+
+
