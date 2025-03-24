@@ -47,6 +47,8 @@ function handleClick(character) {
     currentAnimal = character;
 }
 
+
+
 document.getElementById("votes-form").addEventListener("submit", (e) => {
     e.preventDefault();
     
