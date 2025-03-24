@@ -59,5 +59,10 @@ document.getElementById("votes-form").addEventListener("submit", (e) => {
 
 
 
-
+document.getElementById("reset-btn").addEventListener("click", () => {
+    if (currentAnimal) {
+        currentAnimal.votes = 0; 
+        document.getElementById("vote-count").textContent = 0; 
+    }
+});
 
